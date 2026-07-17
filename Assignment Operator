@@ -1,0 +1,12 @@
+ASSIGNMENT OPERATOR:
+
+       An Assignment operator is used to assign (to store) a value into a variable.
+
+Example: 
+   int a = 20
+
+  a += 10   (or) a = a + 10  //30
+  a -= 5    (or) a = a - 5   //15
+  a *= 2    (or) a = a * 2   //40
+  a /= 5    (or) a = a / 5   //4
+  a %= 3    (or) a = a % 3   //2
