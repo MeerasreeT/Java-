@@ -1,0 +1,54 @@
+
+ DATA TYPES:
+
+1. Numbers 
+   
+   byte -  1 byte =  8 bits = 2^8 = 256/2 = (-128 to 127 )
+   short - 2 byte = 16 bits = 2^16 = 65536/2 = (-32768 to 32767 )
+   int   - 4 byte = 32 bits = 2^32 = 4294967296/2 = (-2147483648 to 2147483647)
+   long  - 8 bytes = 64 bits = 2^64 =                   = (-922337203684775808 to 92233720368)
+
+
+2. Decimal 
+
+   float - 4 bytes = 8 digits
+   double - 8 bytes = 17 digits
+
+3. Text 
+ 
+   char - 1 byte        char ch='A';  char c ='\n';
+   string(class) - infinite  String a ="Meera"
+
+4.Boolean 
+ 
+   boolean - 1bit      boolean value = true;
+                       boolean v = 12>12;   //false
+
+
+Program:
+
+package demo;
+
+public class Testdata {
+
+	public static void main(String[] args) {
+		int i = 10;
+		float f = 78.50f;
+		char ch = 'A';
+		String s ="Java Programming";
+		short  shrt = 105;
+		long lng = 98763l;
+		double db = 45.987d;
+		boolean bln = true;
+		
+		System.out.println(i);
+		System.out.println(f);
+		System.out.println(ch);
+		System.out.println(s);
+		System.out.println(shrt);
+		System.out.println(lng);
+		System.out.println(db);
+		System.out.println(bln);
+		
+	}
+}
