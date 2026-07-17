@@ -1,0 +1,54 @@
+OPERATORS:   
+ i.   Arithmetic Operator
+ ii.  Relational Operator
+ iii. Logical Operator
+
+
+
+Arithmetic Operator:
+  + --> Addition
+  - --> Subtraction
+  * --> Multiplication
+  / --> Divison
+  % --> Modulus
+
+Example:
+ / - Division (important)
+class Oper
+{
+public static void main(String args[])
+{
+int a = 0;                                  int a = 9;                         a=0;                             a=2;
+int b = 0;                                  int b = 0;                         b= 9;                            b=3
+int c = a/b;                                int c = a/b                        c=a/b;                           c=a/b;
+System.out.println(c);                      System.out.println(c);             System.out.println(c);           System.out.println(c);
+o/p: undefined(infinity)                    o/p: undefined                     o/p: 0                           o/p: 0 (answer will be 0.233 so we should put this in whole number)
+}
+}
+
+Anything divide by 0 is infinity
+
+% - Modulus(imp)
+
+class Modulus
+{
+pubic static void main(String args[])
+{
+Sysytem.out.println(11%3);      O/P: 2
+System.out.println(6%3);        O/P: 0
+System.out.println(2%3);        O/P: 2 (Because we cannot divide this)
+}
+}
+
+
+BODMAS RULE ( includes addition,subtraction,multiplication)
+
+class Operats
+{
+public stati void main (String args[])
+{
+System.out.println(11+3*2);            O/P: 17
+System.out.println((11+3)*2);          O/P: 28
+System.out.println(200-1+200);         O/P: 399
+}
+}
