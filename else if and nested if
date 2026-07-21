@@ -1,0 +1,94 @@
+3.)else if:
+
+infinite condition
+
+SYNTAX:
+
+        if(condition)
+        {
+         statement 1;
+        }
+        else if(condition)
+        {
+         statement 2;
+        }
+        else if(condition)
+        {
+         statement 3
+        }
+        else if(condition)
+        {
+         statement 4;
+        }
+        else
+        {
+         else statement
+        }
+
+4.)  nested if
+
+    def: a if statement within if statement
+
+   SYNTAX:
+
+        if(condition)
+        {
+         if(condition)
+           {
+             statement
+           }
+        }
+
+
+Eb bill
+------
+
+Enter unit : 150;
+total bill amount: 0;
+
+below<=500
+unit >= 201 && unit <=400  4.70/unit
+unit >=401 && unit <=500 6.30/unit
+
+above 501 
+unit >=101 && unit <=400 4.70/unit
+unt >=401 && unit <=500 6.30 /unit
+unit >=501 8.40/unit
+
+PROGRAM:
+
+import java.util.Scanner;
+public class Eb{
+    public static void main(String args[]){
+        Scanner scan = new Scanner (System.in);
+        System.out.println("Enter unit:");
+        int unit = scan.nextInt();
+        float amt=0.0f;
+
+        if (unit <= 500)
+        {
+           if (unit <=200)
+           amt = 0;
+           else if (unit>=201 && unit<=400)
+           amt = (unit - 200 ) *4.70f;
+           else  
+           amt = (unit - 400 )* 6.30f + ((200)*4.60f);
+          
+       
+        }
+        else{
+            
+         
+            amt = (unit - 500)*8.40f + ((300)*4.70f) + ((100)*6.30f);
+          
+            
+        }
+       
+        System.out.println("The Bill amount is :"+amt);
+        scan.close();
+        }  
+        
+    
+    
+}
+
