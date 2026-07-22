@@ -1,0 +1,116 @@
+1.ODD OR EVEN
+-------------
+
+import java.util.Scanner;
+class Odd{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num = scan.nextInt();
+        String out=" ";
+        if (num %2 ==0)
+            out = "even";
+        else
+            out = "odd";
+        System.out.println("The give number is "+out);
+    scan.close();
+    }
+    
+}
+
+2.LEAP YEAR
+-----------
+
+import java.util.Scanner;
+class Leap
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter year:");
+        int year = scan.nextInt();
+        String leap_year = "";
+        if (year%4==0)
+            leap_year="Leap Year";
+        else
+            leap_year="Not a Leap Year";
+        System.out.println("The given year is "+leap_year);
+        scan.close();
+    }
+}
+
+3.ELIGIBLE FOR MARRIAGE OR NOT
+------------------------------
+
+
+import java.util.Scanner;
+
+class Marriage {
+   Marriage() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.print("Enter age:");
+      int var2 = var1.nextInt();
+      String var3 = "";
+      if (var2 >= 21) {
+         var3 = "You are eligible to marriage ";
+      } else {
+         var3 = "You are not eligible to marriage";
+      }
+
+      System.out.println(var3);
+      var1.close();
+   }
+}
+
+
+4. PROGRAM TO FIND WHICH IS GREATER NUMBER
+------------------------------------------
+
+
+import java.util.Scanner;
+class Bignumber
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter number 1:");
+        int num1 = scan.nextInt();
+        System.out.print("Enter number 2:");
+        int num2 = scan.nextInt();
+
+        String out= "";
+        if (num1>num2)
+            out="Number 1 is greater than Number 2 ";
+        else
+            out="Number 2 is greater than Number 1";
+        System.out.println(out);
+        scan.close();
+    }
+}
+
+5. ELIGIBLE TO VOTE OR NOT
+--------------------------
+
+
+import java.util.Scanner;
+class Vote
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter age:");
+        int age_num = scan.nextInt();
+        String age= "";
+        if (age_num >= 18)
+            age="You are eligible to vote ";
+        else
+            age="You are not eligible to vote";
+        System.out.println(age);
+        scan.close();
+    }
+}
+
