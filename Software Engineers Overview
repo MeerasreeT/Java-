@@ -2,8 +2,8 @@ SOFTWARE :
 ~~~~~~~~~~
 
 1. System software
-2.Application software
-3.Network software
+2. Application software
+3. Network software
 
 Roles and responsibilites of software engineers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,10 +41,20 @@ Roles and responsibilites of software engineers
          * Test everything that can be affected by the error (whole system).
 
 4. Coordinating and communicating with a team and other stakeholders:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-         * 
+         * Participate in and organise team discuusions (eg: Sprint Planning, Daily Scrum, sprint retrospective)
+         * Use team meetings as an opportunity to raise questions and problema(concerning yoour own / other's work)
+         * Define situations in which it is accectable to reach out to a collegaue for a help vs independent problem-solvimg
+         * Find trusted contact persons who are willing to help
+         * Identify desired ways of support provided by selected contact persons(eg pair programming, online chat tools like slack,reviews on Github, etc).
+
+5. Learning and teaching new technologies and skiills.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         * Have knowledge of/be willing self-teach about programming language (object-oriented & functional development ) and any other needed tool.
 
 
-        
+4        
 
        
