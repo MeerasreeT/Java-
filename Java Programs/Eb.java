@@ -33,3 +33,20 @@ public class Eb{
     
     
 }
+
+// public class Aeb{
+//     public static void main(String args[])
+//     {
+//         System.out.format("Welcome to java");
+//     }
+// }
+
+// public class Sample
+// {
+//     public static void main(String args[]){
+//         int k = 100;
+//         String name = "Meera";
+//         float height = 165.9f;
+//         System.out.format("Name:%s \n Mark:%d \n Height:%f ",name,k,height);
+//     }
+// }
