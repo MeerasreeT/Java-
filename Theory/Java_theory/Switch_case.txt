@@ -1,0 +1,29 @@
+def : expression based execution
+
+eexpression ? var1 va1+var2 a+b/c a*c
+
+syntax : 
+switch(expression)
+{
+    case value1:
+      statement 1;
+      break;
+    case value2:
+      statement 2;
+      break;  
+    case value3:
+      statement 3;
+      break;
+
+    //infinite case we can give  
+    default: 
+      default statement;
+
+}
+
+ex: 1;
+int k=1
+switch(k)
+{
+    
+}
