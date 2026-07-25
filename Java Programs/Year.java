@@ -4,16 +4,13 @@ class Year{
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter year:"); 
         int year = scan.nextInt();
-        System.out.print("1.jan 2.feb 3.mar 4.apr 5.may 6.jun 7.jul 8.aug 9.sep 10.oct 11.nov 12.dec \n Enter your month:");
-        int ch= scan.nextInt();
-
-
- 
+        System.out.print("jan feb mar apr may jun jul aug sept oct nov dec \n Enter your month:");
+        String ch= scan.next();
         switch(ch){
-            case 1:
+            case "jan":
                 System.out.println("No .of days: 31");
                  break;
-            case 2:
+            case "feb":
                 if(year%4==0){
                     System.out.println("No.of.days: 29");
 
@@ -23,34 +20,34 @@ class Year{
                 } 
                 break;  
 
-                case 3:
+                case "mar":
                 System.out.println("No .of days: 31");
                  break;
-                 case 4:
+                 case "apr":
                 System.out.println("No .of days: 30");
                  break;
-                 case 5:
+                 case "may":
                 System.out.println("No .of days: 31");
                  break;
-                 case 6:
+                 case "jun":
                 System.out.println("No .of days: 30");
                  break;
-                 case 7:
+                 case "jul":
                 System.out.println("No .of days: 31");
                  break;
-                 case 8:
+                 case "aug":
                 System.out.println("No .of days: 31");
                  break;
-                 case 9:
+                 case "sept":
                 System.out.println("No .of days: 30");
                  break;
-                 case 10:
+                 case "oct":
                 System.out.println("No .of days: 31");
                  break;
-                 case 11:
+                 case "nov":
                 System.out.println("No .of days: 30");
                  break;
-                 case 12:
+                 case "dec":
                 System.out.println("No .of days: 31");
                  break;
                 default:
