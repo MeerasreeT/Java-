@@ -16,21 +16,25 @@ class SwitchCalculator{
 
         switch(oper){
             case '+':
-                System.out.println("Result"+(num1+num2));
+                System.out.println("Result "+(num1+num2));
                 break;
             case '-':
-                System.out.println("Result"+(num1-num2));
+                System.out.println("Result "+(num1-num2));
                 break;
             case '*':
-                System.out.println("Result"+(num1*num2));
+                System.out.println("Result "+(num1*num2));
                 break;    
             case '/':
-                System.out.println("Result"+(num1/num2));
+                if(num2 !=0)
+                System.out.println("Cannot divide by zero");
+                else
+                System.out.println("Result: "+(num1/num2));    
                 break;    
             case '%':
-                System.out.println("Result"+(num1%num2));
+                System.out.println("Result "+(num1%num2));
                 break;    
  
         }
+        scan.close();
     }
 }
