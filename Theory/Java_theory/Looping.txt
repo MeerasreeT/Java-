@@ -1,0 +1,60 @@
+Looping or Iterator 
+~~~~~~~~~~~~~~~~~~~
+
+    definition: 
+    ~~~~~~~~~~~
+          a set of same statements executes more than one times until condition is true.
+           
+              1. for Loop
+              2. while Loop
+              3. do-while Loop
+              4. nested Loop
+
+        1. for loop :
+             for loop is used fixed iteration
+             there is limit
+             for loop executes until the condition becomes false
+             entry check loop
+
+        2.  while loop:
+              while loop is entry check  loop
+              it is an unfixed iteration
+              while loop executes until the condition becomes false
+              there is no limit
+
+        3.  do-while loop:
+               do while loop is exit check loop
+               it is an unfixed iteration
+               do while loop executes statement first and then checks the condition if the condition is true then it proceeds
+               otherwise it will terminate.
+               there is no limit for  this loop.
+
+        4. nested loop:
+                loop within another loop.
+
+
+1. for loop
+~~~~~~~~~~~
+   Syntax:
+
+        for(initial; condition; increment/decrement)
+        {
+            statement;
+        }  
+         
+          execution:
+            step 1: intial (starting value)  ex: int i=1
+            step 2: condition (true/false)   ex: i<10  if true means go to step 3 if false loop will terminate
+            step 3: statement ex: s.o.p(i)
+            step 4: increment/decrement  ex: i++ i=i+1 i+=1 
+            step 5: step 2
+
+            ex:
+            ~~
+             for (i=5;i<15;i+=3)
+             {
+                System.out.println(i);
+             }    //o/p: 5 8 11 14 
+
+              
+              

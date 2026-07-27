@@ -1,0 +1,42 @@
+Introduction to Programming:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Program:  
+   Set of instructions.
+Purpose of using programs:
+   * to reduce man power
+   * fast and efficiency
+   * accuracy
+   * Problem Solving
+   * Automatic
+   * Secure  storage
+
+Variables:
+   it is a memory box to store values.
+   Storing Data in RAM
+   variable is user-defined identifier.
+   Temorory  memory
+   Unique variable name
+   Value changes  during the execution of the program.
+        Ex: pendrive, memory card,  ram
+
+   constant:
+   ~~~~~~~~~
+     value does not changes during the execution of the program.
+       Ex: cd-r dvd-r.
+
+    Varibale naming rules:
+       * must start alphabets (a-z) or _(underscore).
+       * do not start with number, but we can use after first letter
+       * keywords or reserved words are not allowed   
+       * special chars are not allowed except_
+       * space not allowed
+       * variable must be unique
+
+Keywords or reserved words:
+  
+        *switch   * for  *static  *break  *continue   *return  *int  *while  *public  *private  *double  *float  *protected  *long 
+        *do  *case  *float  *new  *byte  *class  *if  *else  *char  *enum  *abstract  *boolean  *short  *try  *super  *catch  *throw
+        *throws  *extends  *implements  *finally  *null  *true  *false  *interface  *this  *super  *import  
+   
+
