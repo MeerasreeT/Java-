@@ -64,4 +64,4 @@ class Vowels{
         scan.close();
 
     }
-}                                                                                                     v
+}                                                                                                     
